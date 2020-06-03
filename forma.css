@@ -1,0 +1,110 @@
+html, body{
+    font-family: Arial;
+    font-size: 100%;
+    color: #FFF;
+    background: #000;
+	font-weight:bold;	
+}
+
+body{
+	margin:1em;	
+}
+
+h1{
+	font-size:2.0em;
+}
+
+h2{
+	font-size:1.2em;
+	font-weight:normal;
+}
+
+h3{
+	font-size:1em;
+	font-weight:normal;
+}
+
+a{
+    font-weight: bold;
+    text-decoration: underline ;
+    color: #ff0;
+    padding:0.2em;
+}
+
+a:hover{
+    text-decoration: underline;
+    font-weight : bold;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+#fooldalra{
+	position:absolute;
+	top:0;
+	right:0;
+	padding:1em;
+	font-size:0.9em;
+}
+
+.content{
+	padding:0 1em 1em 1em;
+}
+
+.navi, .lang{
+	padding:1em;
+	overflow:auto;
+	clear:both;
+}
+
+.lang ul{
+	margin:0;
+}
+
+.lang li{
+	float:left;
+	list-style:none;
+	margin: 0 1em 0 0;
+}
+
+.hir{
+	border-bottom:1px solid #999;
+	padding: 0 0 1em 0;	
+	overflow:hidden;	
+}
+
+img{
+	float:left;
+	margin:0.5em;
+	border:1px solid #00F;
+	display: none;
+}
+#body{
+	overflow:auto;
+	/*clear:both;*/
+}
+#body img{
+	overflow:auto;
+	clear:both;
+	display: none;
+}
+font{
+	color:#FFF;
+}
+
+.vezetok, .vezetok_sub{
+	margin:0 0 2em 5em;
+	overflow:hidden;
+	clear:both;
+}
+.vezetok_sub{
+	margin:0 0 2em 10em;
+}
+.links, .docs{
+	margin:2em 0 0 0;
+	clear:both;
+}
+
+hr { 
+	clear: both; 
+	margin: 16px 0;
+}
